@@ -14,7 +14,6 @@ def crypt(message):
 
     return message_crypte
 
-# Exemple d'utilisation :
-message = "Hello, World! 123"
+message = "Salut ca va "
 message_crypte = crypt(message)
 print(message_crypte)

@@ -1,9 +1,9 @@
 import unittest
-from Cryptage import *
+from cryptage import *
 
 class Cryptage_Test(unittest.TestCase):
     def setUp(self):
-        self.instance=Cryptage()
+        self.instance=cryptage()
 
 
 
