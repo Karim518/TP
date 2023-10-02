@@ -1,6 +1,6 @@
 import string
 
-def decrypt(message_crypte):
+def decryptage(message_crypte):
     caracteres = string.ascii_letters + string.punctuation + string.digits + " "
     message_decrypte = ""
 
@@ -15,5 +15,5 @@ def decrypt(message_crypte):
     return message_decrypte
 
 message_crypte = "Tbmvuadbawba"
-message_decrypte = decrypt(message_crypte)
+message_decrypte = decryptage(message_crypte)
 print(message_decrypte)
