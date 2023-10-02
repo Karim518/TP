@@ -1,7 +1,7 @@
 import unittest
 from decryptage import *
 
-class deryptage_Test(unittest.TestCase):
+class decryptage_Test(unittest.TestCase):
     def setUp(self):
         self.instance=decryptage()
 
