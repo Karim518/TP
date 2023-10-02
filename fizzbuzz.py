@@ -9,5 +9,5 @@ class fizzbuzz:
                 resultat += "Buzz"
             else:
                 resultat += i
-
+                
         return resultat
